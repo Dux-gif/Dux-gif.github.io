@@ -1,6 +1,8 @@
 # Алексей Ронжин
 Мои домашние задания
 
+[Урок 2](https://github.com/Dux-gif/Dux-gif.github.io/tree/master/lesson_2 "Работа с графикой") - Работа с графикой
+
 [Урок 3](https://github.com/Dux-gif/Dux-gif.github.io/tree/master/lesson_3 "Настройка рабочего пространства") - Настройка рабочего пространства
 
 [Урок 4](Dux-gif.github.io/lesson_4/ "Мини-книга") - Мини-книга
