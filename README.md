@@ -11,7 +11,7 @@
 
 [Урок 6](Dux-gif.github.io/lesson_6/ "Позициониравние CSS") - Позициониравние CSS
 
-[Урок 7](Dux-gif.github.io/lesson_7/src/ "Верстка первого макета") - Верстка первого макета
+[Урок 7](Dux-gif.github.io/lesson_7/src/MyFirstSite.html "Верстка первого макета") - Верстка первого макета
 
 [Урок 8](Dux-gif.github.io/lesson_8/MyProject/src/ "Ускорение верстки в разы") - Ускорение верстки в разы
 
