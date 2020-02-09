@@ -1,0 +1,21 @@
+.header{
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 140px;
+	font-family: Arial, sans-serif;
+	font-size: 36px;
+}
+
+.row{
+	display: inline-block;
+	text-align:center;
+	margin-left: 40px;
+	margin-top: 115px;
+	font-size: 18px;
+	font-family: Arial, sans-serif;
+}
+.feature{
+	margin-top: 15px;
+	display: inline-block;
+}
+
