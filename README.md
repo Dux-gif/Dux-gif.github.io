@@ -12,3 +12,5 @@
 [Урок 8](Dux-gif.github.io/lesson_8/MyProject/src/ "Ускорение верстки в разы") - Ускорение верстки в разы
 
 [Урок 9](Dux-gif.github.io/lesson_9/MyFirstSite/src/ "Верстка при помощи bootstrap") - Верстка при помощи bootstrap
+
+[Урок 10](https://github.com/Dux-gif/Dux-gif.github.io/tree/master/lesson_10 "Препроцессор LESS") - Препроцессор LESS
