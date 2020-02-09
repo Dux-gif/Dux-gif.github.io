@@ -1,0 +1,52 @@
+.header{
+	margin-top: 30px;
+	font-size: 24px;
+	line-height: 2;
+margin: 60px auto;
+}
+.form{
+	border:5px solid #472cc3;
+	padding:30px 10px;
+	font-size:20px;
+}
+.header span{
+	display: block;
+}
+.form-btn{
+	margin: 10px auto;
+}
+.form input{
+	margin-top: 10px;
+}
+.form-header{
+		margin-bottom: 40px;
+		font-weight: 900;
+}
+p{
+	font-family: Tahoma, sans-serif;
+}
+.section{
+padding:20px 0;
+}
+.section-header{
+			font-weight: 900;
+font-size: 24px
+}
+.section-header{
+margin-bottom: 70px;
+}
+.feature{
+	margin-bottom: 90px;
+}
+.feature-box{
+	height:160px;
+}
+.clients-box img{
+margin:10px;
+}
+.header-clients{
+	margin-bottom: 70px;
+				font-weight: 900;
+font-size: 24px
+
+}
