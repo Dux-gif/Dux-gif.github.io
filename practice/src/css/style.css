@@ -55,6 +55,12 @@ a:focus {
 section {
   padding: 10rem 0;
 }
+.section-header {
+  margin: 2rem 0 10rem;
+  font-family: 'ProximaNova-bold', sans-serif;
+  font-size: 3.6rem;
+  text-align: center;
+}
 /* Main */
 .main {
   padding: 3rem 0 5rem;
@@ -158,6 +164,51 @@ section {
   line-height: 7rem;
   color: #292929;
 }
+/* Оформление секции с преимуществами */
+.features-block {
+  text-align: center;
+}
+.features-block h3 {
+  font-family: 'ProximaNova-bold', sans-serif;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+.features-block p {
+  display: inline-block;
+  width: 80%;
+  font-size: 1.4rem;
+}
+.features-img {
+  height: 8rem;
+  margin-bottom: 3rem;
+}
+.features-img img {
+  display: block;
+  margin: 0 auto;
+}
+.slick-active {
+  outline: none;
+}
+.arrow {
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  z-index: 99;
+  width: 2rem;
+  height: 2rem;
+  border: none;
+  background-size: 70%;
+}
+.prev {
+  left: 0;
+  background: url(../img/left-arrow.svg) center no-repeat;
+  background-size: 70%;
+}
+.next {
+  right: 0;
+  background: url(../img/right-arrow.svg) center no-repeat;
+  background-size: 70%;
+}
 @media (max-width: 1191px) {
   .phone-block {
     margin-right: 10rem;
@@ -193,6 +244,6 @@ section {
     text-align: center;
   }
   .phone-block {
-    margin-right: 15rem;
+    margin-right: 20rem;
   }
 }
