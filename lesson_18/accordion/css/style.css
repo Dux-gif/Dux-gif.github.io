@@ -1,0 +1,58 @@
+body {
+	background: url(../img/main-bg.png)
+}
+.header {
+	text-transform: uppercase;
+	text-align: center;
+	color: #0bbaf0
+}
+h1{
+	font-weight: bold;
+}
+#headingOne {
+	width: 70rem;
+	height: 4rem;
+	text-align: center;
+	margin-left: 41rem;
+	background-color: #0bbaf0;
+	color: #fff;
+}
+
+#headingTwo {
+	width: 70rem;
+	height: 4rem;
+	text-align: center;
+	margin-left: 41rem;
+	background-color: #0bbaf0;
+	color: #fff;
+}
+
+#headingThree {
+	width: 70rem;
+	height: 4rem;
+	text-align: center;
+	margin-left: 41rem;
+	background-color: #0bbaf0;
+	color: #fff;
+}
+
+#headingFour {
+	width: 70rem;
+	height: 4rem;
+	text-align: center;
+	margin-left: 41rem;
+	background-color: #0bbaf0;
+	color: #fff;
+}
+
+.panel-body{
+	width: 70rem;
+	height: 13rem;
+	margin-bottom: 1.5rem;
+	padding-bottom: 5rem;
+	margin-left: 41rem; 
+	border: 1px solid #dcdcdc;
+	border-radius: 1rem;
+}
+
+
