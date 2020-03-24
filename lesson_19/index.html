@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/favicon.ico">
+
+    <title>Tab</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+  	<div>
+
+  	  <!-- Nav tabs -->
+  	  <ul class="nav nav-tabs" role="tablist">
+  	    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Вход</a></li>
+  	    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Регистрация</a></li>
+  	  <!-- Tab panes -->
+  	  <div class="tab-content">
+  	    <div role="tabpanel" class="tab-pane active" id="home">
+  	    	<div class="main-form">
+  	    	<form action="#">
+  					<label form="#">Ваше имя</label>
+  					<input class="main-form-input" type="text">
+  					<label form="#">Пароль</label>
+  					<input class="main-form-input" type="text">
+  					<button class="main-form-btn button" type="submit">Войти</button>
+  				</form>
+  				</div>
+  				</div>
+  	    <div role="tabpanel" class="tab-pane" id="profile"></div>
+  	  </div>
+
+  	</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
