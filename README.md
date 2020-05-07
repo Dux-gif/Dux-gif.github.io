@@ -1,6 +1,8 @@
 # Алексей Ронжин
 Мои домашние задания
 
+[Практика](Dux-gif.github.io/practice/src/index.html "Практика") - Практика
+
 [Урок 2](https://github.com/Dux-gif/Dux-gif.github.io/tree/master/lesson_2 "Работа с графикой") - Работа с графикой
 
 [Урок 3](https://github.com/Dux-gif/Dux-gif.github.io/tree/master/lesson_3 "Настройка рабочего пространства") - Настройка рабочего пространства
@@ -24,3 +26,19 @@
 [Урок 13](https://github.com/Dux-gif/Dux-gif.github.io/tree/master/lesson_13 "Адаптивная верстка") - Адаптивная верстка
 
 [Урок 14](https://github.com/Dux-gif/Dux-gif.github.io/blob/master/practice/src/index.html "Верстка шапки") - Верстка шапки
+
+[Урок 15](Dux-gif.github.io/lesson_15/index.html "Псевдоклассы и псевдоэлементы") - Псевдоклассы и псевдоэлементы
+
+[Урок 16](Dux-gif.github.io/lesson_16/index.html "Слайдеры") - Слайдеры
+
+[Урок 17](Dux-gif.github.io/lesson_17/index.html "Всплывающие окна") - Всплывающие окна
+
+[Урок 18](https://github.com/Dux-gif/Dux-gif.github.io/tree/master/lesson_18 "Табы и аккордеоны") - Табы и аккордеоны
+
+[Урок 19](Dux-gif.github.io/lesson_19/index.html "Анимация на CSS3") - Анимация на CSS3
+
+[Урок 20](Dux-gif.github.io/lesson_20/index.html "Видео фон на сайте") - Видео фон на сайте
+
+[Урок 21](https://dux-gif.github.io/lesson_21/index.html "Parallax эффект для сайта") - Parallax эффект для сайта
+
+[Урок 22](Dux-gif.github.io/lesson_22/index.html "Гео-карты для сайта") - Гео-карты для сайта
