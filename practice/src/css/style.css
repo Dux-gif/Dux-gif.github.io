@@ -451,6 +451,9 @@ section {
   background: url(../img/problems/1.png) center no-repeat;
   background-size: 70%;
 }
+.problems-list_good {
+  border-color: #49be15;
+}
 .problems-list_good ul li:before {
   background: url(../img/problems/checked-symbol.png) center no-repeat;
   background-size: 70%;
@@ -493,6 +496,28 @@ section {
 }
 .popup-header {
   font-family: 'ProximaNova-bold', sans-serif;
+}
+/* Материалы */
+.materials {
+  background: #ffffff url(../img/materials/materials-bg.jpg) center no-repeat;
+  background-size: cover;
+}
+.materials-slider {
+  padding-top: 5rem;
+}
+.materials-link {
+  color: #49be15;
+  border-bottom: 1px dotted #49be15;
+}
+.materials-link:hover {
+  color: #379010;
+}
+.materials-offer {
+  margin-top: 4rem;
+}
+.materials img {
+  display: block;
+  margin: 0 auto;
 }
 @media (max-width: 1199px) {
   .feedback-form {

@@ -496,6 +496,7 @@ position: relative;
         }
     }
     &_good {
+    border-color: @icons;
     ul li:before {
     background: url(../img/problems/checked-symbol.png) center no-repeat;
     background-size: 70%;
@@ -544,6 +545,28 @@ position: relative;
     }
 }
 
+/* Материалы */
+.materials {
+    background: @light url(../img/materials/materials-bg.jpg) center no-repeat;
+    background-size: cover;
+    &-slider {
+    padding-top: 5rem;
+    }
+    &-link {
+    color: @icons;
+    border-bottom: 1px dotted @icons;
+    &:hover {
+    color: darken(@icons, 10%);
+    }
+    }
+    &-offer {
+    margin-top: 4rem;
+    }
+    img {
+    display: block;
+    margin: 0 auto;
+    }
+}
 @media(max-width: 1199px) {
 .feedback {
 &-form {
