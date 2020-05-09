@@ -7,6 +7,7 @@
 @light:#fff;
 @border-input:#dddddd;
 @problems-color:#e8e8e8;
+@upsell-bg: #286b0a;
 /* Fonts family */
 @font-face {
     font-family: 'ProximaNova_reg';
@@ -567,6 +568,46 @@ position: relative;
     margin: 0 auto;
     }
 }
+
+/* Посмотрите как мы работаем */
+.tour {
+    background: @light url(../img/tour.jpg) center no-repeat;
+    background-size: cover;
+    &-subtitle {
+    font-size: 2.2rem;
+    }
+    h1{
+    margin-top:0;
+    margin-bottom: 4rem;
+    font-size:4rem; 
+    line-height: 1.45;
+    text-transform:uppercase;
+    .bold();
+    }
+    }
+
+/* Дополнительные услуги */
+.upsell {
+    background: @upsell-bg;
+    &-block {
+    &s {
+    margin-top: 3rem;
+    }
+    img {
+    display: inline-block;
+    margin-bottom: 2rem;
+    width: 100%;
+    max-width: 30rem; 
+    }
+    p {
+    font-size: 2rem;
+    }
+    min-height: 30rem;
+    text-align: center;
+    color: @light;
+    }
+}
+
 @media(max-width: 1199px) {
 .feedback {
 &-form {
@@ -641,6 +682,10 @@ position: relative;
     &-women {
     display: none;
     }
+    }
+    .tour {
+    background: none;
+    background-color: @bg-light;
     }
 }
 

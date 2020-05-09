@@ -519,6 +519,43 @@ section {
   display: block;
   margin: 0 auto;
 }
+/* Посмотрите как мы работаем */
+.tour {
+  background: #ffffff url(../img/tour.jpg) center no-repeat;
+  background-size: cover;
+}
+.tour-subtitle {
+  font-size: 2.2rem;
+}
+.tour h1 {
+  margin-top: 0;
+  margin-bottom: 4rem;
+  font-size: 4rem;
+  line-height: 1.45;
+  text-transform: uppercase;
+  font-family: 'ProximaNova-bold', sans-serif;
+}
+/* Дополнительные услуги */
+.upsell {
+  background: #286b0a;
+}
+.upsell-block {
+  min-height: 30rem;
+  text-align: center;
+  color: #ffffff;
+}
+.upsell-blocks {
+  margin-top: 3rem;
+}
+.upsell-block img {
+  display: inline-block;
+  margin-bottom: 2rem;
+  width: 100%;
+  max-width: 30rem;
+}
+.upsell-block p {
+  font-size: 2rem;
+}
 @media (max-width: 1199px) {
   .feedback-form {
     padding: 3rem 5rem;
@@ -578,6 +615,10 @@ section {
   }
   .problems-women {
     display: none;
+  }
+  .tour {
+    background: none;
+    background-color: #f5f5f5;
   }
 }
 @media (max-width: 769px) {
