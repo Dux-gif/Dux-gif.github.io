@@ -86,7 +86,7 @@ button, input, a, textarea{
 }
 
 .form{
-    &-input{
+    &-input, &-textarea{
         display: block;
         margin: 2rem 0;
         width:100%;
@@ -584,7 +584,10 @@ position: relative;
     text-transform:uppercase;
     .bold();
     }
+    &-btn {
+    padding: 1rem 1.8rem;
     }
+}
 
 /* Дополнительные услуги */
 .upsell {
@@ -605,6 +608,52 @@ position: relative;
     min-height: 30rem;
     text-align: center;
     color: @light;
+    }
+}
+
+/* Контакты */
+.contacts {
+background: @light url(../img/contacts/contacts-bg.jpg) center bottom no-repeat;
+background-size: cover;
+h2 {
+    .bold();
+}
+    p {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    }
+    &-link {
+    display: inline-block;
+    color: @text;
+    border-bottom: 1px dotted @text;
+    &:hover{
+    color: darken(@text, 10%);
+        }
+    }
+/* Заголовок для формы */
+&-form {
+    h2 {
+    font-size: 1.9rem;
+    .reg();
+    margin-bottom: 3rem;
+    }
+}
+}
+
+/* Оформление подвала(footer) */
+footer {
+    padding: 4rem 0;   
+}
+.footer {
+    &-contacts {
+    text-align: center;
+    padding-top: 0.5rem;
+    p {
+    margin: 0;
+    }
+    }
+    &-dev-logo {
+    text-align: right;
     }
 }
 
@@ -686,6 +735,24 @@ position: relative;
     .tour {
     background: none;
     background-color: @bg-light;
+    }
+    .contacts {
+    background: none;
+    background-color: @bg-light;
+    &-form {
+    margin-top: 3rem;
+    }
+    }
+    footer {
+    text-align: center;
+    }
+    .footer {
+    &-contacts {
+    margin: 2rem 0;
+    }
+    &-dev-logo {
+    text-align: center;
+    }
     }
 }
 
